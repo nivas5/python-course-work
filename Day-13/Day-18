@@ -1,0 +1,22 @@
+
+'''
+n = int(input("Enter the Size:"))
+
+for row in range(n):
+    for col in range(n):
+        print(col%2, end = ' ')
+    print()
+---------------
+n = int(input("Enter the Size:"))
+
+for row in range(n):
+    for col in range(n):
+        print((row+col)%2, end = ' ')
+    print()
+,,,
+n = int(input("Enter the Size:"))
+
+for row in range(n):
+    for col in range(n):
+        print((row+col<=n-1), end = ' ')
+    print()

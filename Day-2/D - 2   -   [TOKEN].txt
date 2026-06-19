@@ -1,0 +1,156 @@
+[TOKEN]
+
+n — Identifier                   print — Id
+
+= — Operator                ( — Pun
+
+10 — Literal              "EVEN" — Literal
+
+if — Keyword             ) — Pun
+
+n — Identifier               else — kw
+
+% — OP                        : — Pun
+
+2 — Literal                  print — Id
+
+== — OP                     ( — Pun
+
+0 — Literal                 "Odd" — li
+
+: — Punctuation                 ) — Pun
+
+--------------------------------------------------
+
+[Statement]
+
+A line of code is called a statement.
+
+--------------------------------------------------
+
+[Comments]
+
+(using # or ''' ''')
+
+We can comment or skip anything we want it does-nt considered as a code.
+
+--------------------------------------------------
+
+[Variable rules]
+
+(A-Z, a-z, 0-9, _) can be used for a variable.
+
+(A-Z, a-z, _) can start with any of these.
+
+can't use a keyword like (if, else etc.)
+
+case sensitive.
+
+
+
+>> If we want to assign a same value to multiple variables we have to do,
+
+       therefore a = b = c = 10
+       so, a = 10
+       b = 10
+       c = 10
+
+>> if a, b = 10, 20
+
+       a = 10
+       b = 20
+
+>> if we want to swap the values of the variables
+
+      therefore a, b = b, a
+      so, a = 20
+      b = 10
+
+--------------------------------------------------
+
+>> [Numeric] 
+
+       Int - integer - Immutable
+       Float - Decimals - IM
+       Complex - Imaginary number - IM
+
+
+
+           a = 20                    a = 20.5                a = 2+4j   
+
+           type(a)                   type(a)
+
+           <class 'int'>             <class 'float'>         (a = 2+4j)
+
+           Int                       Float                   Complex
+
+--------------------------------------------------
+
+[Sequential Data Type]
+
+str - string - '', "", """ """ - Immutable
+
+List - [ ], ord, duplic - Mutable
+
+Tuple - ( ), ord, duplic - Immutable
+
+
+         s = "python"       l = [1,3,3,2]        t = (1,3,3,2)
+
+         type(s)            type(l)              type(t)
+
+         <class 'str'>      <class 'list'>       <class 'tuple'>
+
+--------------------------------------------------
+
+Mutable: 
+can change the data within the same memory.
+
+Mutable Example:
+
+l = [1,3,3,2]
+l.append(34)
+l = [1,3,3,2,34]
+
+
+Immutable: 
+we can't change anything in that memory, but can in other.
+
+Immutable String Behaviour:
+
+But, in string;
+                                     s = s + "lang"s = pythonlang
+s = "python"                         like;
+s = s + "lang"                       id(s)
+s = pythonlang                       something like - 213470201236
+
+--------------------------------------------------
+[Map] -
+
+set - { } - No Duplicates, unordered, MutableDict.
+
+Dictionary - { } - Mutable, ordered.
+
+
+         D = {"Name": "Nivas", "Age": 23}               S = {1, 2, 4, 5}
+
+         type(D)                                        type(S)
+
+         <class 'dict'>                                 <class 'set'>
+
+--------------------------------------------------
+
+Boolean - Immutable - True / False.
+
+None - can use if we are uncertain of a variable value.
+
+
+
+
+
+
+
+
+
+
+
